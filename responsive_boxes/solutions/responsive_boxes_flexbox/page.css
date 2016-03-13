@@ -5,13 +5,13 @@ html, body {
 /*header*/
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   border: 5px solid black;
   padding: 5px;
 }
 
 header nav {
-  display: flex;
+  display: none;
   flex: 1;
   justify-content: flex-start;
   align-items: center;
@@ -23,8 +23,7 @@ header nav a{
 }
 
 header .menu {
-  background: red;
-  display: none;
+  display: block;
 }
 
 /*main*/
